@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS2KickPlayer", "CS2KickPlayer.csproj", "{193DEDDD-E447-407E-A433-FB95AF51B2D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{193DEDDD-E447-407E-A433-FB95AF51B2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193DEDDD-E447-407E-A433-FB95AF51B2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193DEDDD-E447-407E-A433-FB95AF51B2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193DEDDD-E447-407E-A433-FB95AF51B2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {334C7E8D-5894-46C7-92E7-E632EF1EFDA4}
+	EndGlobalSection
+EndGlobal
