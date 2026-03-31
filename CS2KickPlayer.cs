@@ -22,15 +22,12 @@ namespace CS2KickPlayer
         }
 
         [RequiresPermissions("@css/kick")]
-        [ConsoleCommand("css_kick", "kicks a player. NOW INCLUDING: partial name searching!")]
+        [ConsoleCommand("css_kick", "Kicks a player.")]
         [CommandHelper(minArgs: 1, whoCanExecute: CommandUsage.CLIENT_AND_SERVER)]
         public void OnCommandKick(CCSPlayerController? player, CommandInfo info)
         {
-            if (player == null)
-            {
-                return;
-            }
-
+            if (player == null) return;
+            
             string search = info.ArgString.Trim().ToLower();
 
             var matches = Utilities.GetPlayers()
